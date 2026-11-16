@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width">
+        <title>David Forms</title>
+    </head>
+    <body>
+        <header>
+            <h2>Application for "Learn to code"</h2>
+        </header>
+        <main>
+            <form>
+                <p>
+                    <fieldset>
+                        <legend>Personal details</legend>
+                        <ul>
+                            <li>
+                                <label for="name">Full name</label>
+                                <input type="text" id="name" name="name">
+                            </li>
+                            <li>
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email">
+                            </li>
+                            <li>
+                                <label for="pwd">Password</label>
+                                <input type="text" id="pwd" name="Password" minlength="8">
+                            </li>
+                            <li>
+                                <label for="dob">Date of Birth</label>
+                                <input type="date" id="dob" name="D.O.B">
+                            </li>
+                            <li>
+                                <label for="level">Course Level</label>
+                                <select id="level">
+                                    <option value="first-year">100L</option>
+                                    <option value="second-year">200L</option>
+                                    <option value="third-year">300L</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </p>
+
+                <p>
+                    <fieldset>
+                        <legend>Study Time</legend>
+                        
+                        <input type="radio" id="morn" name="time" value="morning">
+                        <label for="morn">morning</label>
+
+                        <input type="radio" id="aft" name="time" value="afternoon">
+                        <label for="aft">afternoon</label>
+
+                        <input type="radio" id="eve" name="time" value="evening">
+                        <label for="eve">evening</label>
+                    </fieldset>
+                </p>
+
+                <p>
+                    <fieldset>
+                        <legend>Comment</legend>
+                        <label for="comment">Why do you want to learn how to code</label>
+                        <br>
+                        <textarea id="comment" name="Comment" maxlength="200" rows="11" cols="99" placeholder="I want to learn how to code because....."></textarea>
+                    </fieldset>
+                </p>
+                <p>
+                    <button>Submit</button>
+                </p>
+            </form>
+        </main>
+        <footer>
+            <p>
+                &copy; 2026 David Uma Elijah <a href="https://github.com/umadavid610">Github</a>
+            </p>
+        </footer>
+    </body>
+</html>
