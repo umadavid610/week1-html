@@ -6,7 +6,6 @@
     <meta name="author" content="David Uma" />
     <title>David Uma Elijah</title>
     <link rel="icon" href="./David_Elijah_Passport_photo.jpg" />
-    <base target="_blank">
   </head>
   <body>
     <header>
@@ -15,11 +14,11 @@
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#goals">Goals for 2026</a></li>
           <li><a href="#skills">Skills I'm learning</a></li>
-          <li><a href="#contact">Contacts me</a></li>
-          <li><a href="form.html">Apply to Learn to code</a></li>
-          <li><a href="timetable.html">Learn about our schedules</a></li>
+          <li><a href="#goals">Goals for 2026</a></li>
+          <li><a href="#contact">Contact me</a></li>
+          <li><a href="form.html">Application form</a></li>
+          <li><a href="timetable.html">Weekly schedule</a></li>
         </ul>
       </nav>
     </header>
@@ -80,25 +79,26 @@
         </ol>
       </section>
       <section id="contact">
+        <h2>Contact me</h2>
         <form>
           <fieldset>
-            <legend style="font-weight: 1000; font-size: x-large;">Contact me</legend>
+            <legend>Send me a message</legend>
             <ul>
               <li>
                 <label for="name">Name</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" required>
               </li>
               <li>
                 <label for="email">Email</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" required>
               </li>
             </ul>
             <label for="tbox">Message</label>
             <br>
-            <textarea id="tbox" name="message" rows="6" cols="99" maxlength="200"></textarea>
+            <textarea id="tbox" name="message" rows="6" cols="99" maxlength="200" required></textarea>
           </fieldset>
           <p>
-            <button><a href="form.html">Submit</a></button>
+            <button type="submit">Send</button>
           </p>
         </form>
       </section>
