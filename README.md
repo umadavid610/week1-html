@@ -10,4 +10,4 @@ A small multi-page website about me, built with semantic HTML in Week 1 of my so
 ## What I learned this week
 1. I learnt a lot about the importance of semantics in code. As a developer, you must take account of every possible audience, and use the proper elements that would suit all audience.
 2. I learnt about the use of tables. This is one of the classes I so much appreciated (especially when it's styled)
-3. The resources are available, just go out there and learn it. Looking at all of I have learnt this week, I realized that there is still a lot to learn, a lot to be, and a lot to do. I pray to God for grace.
+3. The resources are available, just go out there and learn it. Looking at all I that ave learnt this week, I realized that there is still a lot to learn, a lot to be, and a lot to do. I pray to God for grace.
